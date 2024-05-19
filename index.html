@@ -42,7 +42,7 @@
     </div>
 
 
-    <section id="navbar">
+    <section id="navbar" class="sticky-top ">
 
         <nav class="navbar navbar-expand-lg ">
             <div class="container ">
@@ -2364,6 +2364,20 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var navbar = document.getElementById('navbar');
+            window.addEventListener('scroll', function() {
+            if (window.scrollY > 100) {
+                navbar.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
+            } else {
+                navbar.style.boxShadow = 'none';
+            }
+            });
+        });
+        </script>
+       
+          
 </body>
 
 </html>
