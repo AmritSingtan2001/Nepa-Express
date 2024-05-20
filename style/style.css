@@ -284,6 +284,9 @@ ul.offcanvas-social-media {
 
 }
 
+/* //// */
+
+
 
 
 .nav_icons i{
@@ -487,8 +490,34 @@ ul.offcanvas-social-media {
     opacity: 0.2;
 }
 
+/* overlap news */
+.image-overlap {
+    position: absolute;
+    top: 50px;
+    left: -20px;
+    max-width: 50%;
+    height: auto;
+    z-index: 1;
+}
+.news-content {
+    padding: 100px 30px 80px 50px;
+}
+
+.title {
+    font-size: 20px;
+}
+.title a {
+    color: rgba(0, 0, 0, .87);
+    font-weight: 600;
+    text-decoration: none;
+}
 
 
+.text-over-image a {
+    color: #f1f1f1;
+    line-height: 1.4;
+    font-size: 25px;
+}
 
 @media (max-width: 600px) {
     .news__title {
@@ -496,6 +525,17 @@ ul.offcanvas-social-media {
         font-weight: 600;
         line-height: 1.31;
     }
+
+    .image-overlap {
+        position: absolute;
+        top: 50px;
+        left: -20px;
+        max-width: 50%;
+    }
+    .news-content {
+        padding: 100px 30px 80px 50px;
+    }
+
 
 }
 
