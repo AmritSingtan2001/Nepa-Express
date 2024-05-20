@@ -25,18 +25,17 @@
 
 <body>
     <!--logo-->
-    <div class="container mt-2 mb-2 d d-none d-xl-block" >
+    <div class="container my-2 d d-none d-xl-block" >
         <div class="row ps-2">
             <div class="col-md-3">
                 <a href="homepage.html">
                     <img src="https://www.nepalpress.com/wp-content/uploads/2022/09/nepalpress-logo.png" alt=""
-                        class="img-fluid pt-2 ">
+                        class="img-fluid ps-1 pt-1 ">
                 </a>
-                <div class="date__note">
-                    <span class="nepali-date float-end">
-                        <iframe style="position: relative; top: 0px; padding-left: 15px; text-style:bold; " scrolling="no" border="0" frameborder="0" marginwidth="0" marginheight="0" allowtransparency="true" src="https://www.ashesh.com.np/linknepali-time.php?dwn=only&amp;font_color=c40228&amp;font_size=16&amp;font_weight=bolder&amp;bikram_sambat=0&amp;format=dmyw&amp;api=962173k280" width="165" height="22"></iframe>
-                    </span> 
-                </div>
+                <div class="date__note float-end ">
+                    <span class="nepali-date pe-2">
+                    २०८१ जेठ ७ गते </span> &nbsp;
+                </div> 
             </div>
         </div>
     </div>
@@ -77,18 +76,18 @@
 
 
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link nav-logo-icon" href="">
-                                <img src="https://www.nepalpress.com/wp-content/themes/nepalpress/assets/img/sticky-logo.png" class="img-fl">
+                    <ul class="navbar-nav  mb-lg-0">
+                        <!-- <li class="nav-item">
+                            <a class="nav-link icons-image" href=""  id="icons-image">
+                                <img src="https://www.nepalpress.com/wp-content/themes/nepalpress/assets/img/sticky-logo.png" class="img-fluid h-100 nav-logo-icon" >
                             </a>
-                        </li>
+                        </li> -->
 
-                        <li class="nav-item">
+                        <li class="nav-item dropdown">
                             <a class="nav-link active text-danger custom-hover " href="">होमपेज</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link custom-hover " href=""> टेक अपडेट 
+                            <a class="nav-link custom-hover  text-nowrap" href=""> टेक अपडेट 
                                 <svg width="14" height="14" class="m-2s" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="chevron-down">
                                     <polyline fill="none" stroke="#000" stroke-width="1.03" points="16 7 10 13 4 7"></polyline>
                                 </svg>
@@ -101,16 +100,18 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link " href=""> टिप्स
-                                <svg width="14" height="14" class="m-2s" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="chevron-down">
-                                    <polyline fill="none" stroke="#000" stroke-width="1.03" points="16 7 10 13 4 7"></polyline>
-                                </svg>
                             </a>
-                            <div class="dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
-                            </div>
+                            
                         </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  " href="">टेलिकम
+                                
+                            </a>
+                            
+                        </li>
+
+                        
 
                         <li class="nav-item dropdown">
                             <a class="nav-link  " href="">टेलिकम
@@ -136,16 +137,16 @@
                                 <a href="#">Link 3</a>
                             </div>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item dropdown">
                             <a class="nav-link   " href="">ग्याजेट्स </a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item dropdown">
                             <a class="nav-link  " href="">टेक्नोलोजी</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link  " href="">सोसल मिडिया</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-nowrap  " href="">सोसल मिडिया</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item dropdown">
                             <a class="nav-link   " href="">रिभ्यू</a>
                         </li>
                     </ul>
@@ -153,7 +154,27 @@
 
 
 
-                    <div class="nav_icons text-decoration-none d-none d-sm-block me-2" type="button"
+                    
+
+                    <div class=" nav-right   d-none d-sm-block "><a href="" class="text-decoration-none">EG</a></div>
+                    <div class="nav-right  ">
+                        <button href="" class="text-decoration-none d-none d-sm-block ">
+                            <i class="fa-regular fa-clock   "></i>
+                        </button>
+                    </div>
+
+
+                    <div class="nav-right trending-up">
+                        <button href="" class=" text-decoration-none d-none d-sm-block me-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1.13em" height="1em" viewBox="0 0 432 384">
+                                <path fill="currentColor" d="M299 64h128v128l-49-49l-135 134l-85-85L30 320L0 290l158-158l85 85l105-104z"/></svg>                        
+                        </button>
+                    </div>
+                    
+                    
+
+
+                    <div class="nav-right text-decoration-none d-none d-sm-block me-2" type="button"
                         class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
@@ -181,14 +202,6 @@
                     </div>
 
 
-                    <div class="  nav_icons  d-none d-sm-block py-2 me-2"><b>EG</b></div>
-
-                    <a href="" class="nav_icons text-decoration-none d-none d-sm-block me-2">
-                        <i class="fa-regular fa-clock   "></i>
-                    </a>
-                    <a href="" class="nav_icons text-decoration-none d-none d-sm-block me-2">
-                        <i class="fa-solid fa-chart-line   "></i>
-                    </a>
                     
 
                 </div>
@@ -289,12 +302,12 @@
                 <div class="text-center">
                     <img class="rounded-circle" id="logo"
                         src="https://www.nepalpress.com/wp-content/uploads/2020/11/nepalpress-logo-n.png" alt="">
-                    <span class="fw-bold">नेपाल प्रेस</span>
+                    <span class=" ps-3">नेपाल प्रेस</span>
 
                 </div>
-                <div class="mt-3">
-                    <img src="https://www.nepalpress.com/wp-content/uploads/2024/05/bipakshi-baitak-congrss.jpg" class="img-fluid" alt="">
-                    <div class="text-center my-5">
+                <div class="">
+                    <img src="https://www.nepalpress.com/wp-content/uploads/2024/05/bipakshi-baitak-congrss.jpg" class="img-fluid mt-3" alt="">
+                    <div class="text-center my-4">
                         <p class="fw-bold fs-4">सरकारविरुद्ध संयुक्त रणनीति बनाउन कांग्रेसले अन्य दलको पनि साथ लिन
                             खोजेको छ ।</p>
                     </div>
@@ -327,9 +340,9 @@
                             अवस्था ? हेर्दा जे देखियो</h1>
                     </a>
                     <div class="text-center">
-                        <img class="rounded-circle img-fluid figure-img" id="logo"
-                            src="https://www.nepalpress.com/wp-content/uploads/2020/11/nepalpress-logo-n.png" class="img-fluid" alt="">
-                        <span class="fw-bold">नेपाल प्रेस</span>
+                        <img class="rounded-circle" id="logo"
+                            src="https://www.nepalpress.com/wp-content/uploads/2020/11/nepalpress-logo-n.png" alt="">
+                        <span class="fw-muted ps-3">नेपाल प्रेस</span>
     
                     </div>
                 </div>
@@ -340,14 +353,14 @@
                             अवस्था ? हेर्दा जे देखियो</h1>
                     </a>
                     <div class="text-center">
-                        <img class="rounded-circle img-fluid figure-img" id="logo"
-                            src="https://www.nepalpress.com/wp-content/uploads/2020/11/nepalpress-logo-n.png" class="img-fluid" alt="">
-                        <span class="fw-bold">नेपाल प्रेस</span>
+                        <img class="rounded-circle" id="logo"
+                            src="https://www.nepalpress.com/wp-content/uploads/2020/11/nepalpress-logo-n.png" alt="">
+                        <span class="fw-muted ps-3">नेपाल प्रेस</span>
     
                     </div>
-                    <div class="mt-3">
-                        <img src="https://www.nepalpress.com/wp-content/uploads/2024/05/bipakshi-baitak-congrss.jpg" class="img-fluid" alt="">
-                        <div class="text-center my-5">
+                    <div class="">
+                        <img src="https://www.nepalpress.com/wp-content/uploads/2024/05/bipakshi-baitak-congrss.jpg" class="img-fluid mt-3" alt="">
+                        <div class="text-center my-4">
                             <p class="fw-bold fs-4">सरकारविरुद्ध संयुक्त रणनीति बनाउन कांग्रेसले अन्य दलको पनि साथ लिन
                                 खोजेको छ ।</p>
                         </div>
@@ -366,7 +379,7 @@
 
             </div>
             <div class="col-md-8">
-                <div class="row py-3">
+                <div class="row py-2">
                     <div class="col-12 col-sm-12 col-md-12">
                         <div class="overlay-news" style="border: none;">
                             <div class="card-body p-0 position-relative">
@@ -374,7 +387,7 @@
                                     <a href="#" class="text-decoration-none">
                                         <img src="https://www.nepalpress.com/wp-content/uploads/2023/05/gold.jpg" class=" rounded overlya-news-image" alt="">
                                         <h3 class="text-over-image title fs-4">
-                                            <a href="" class=" custom-hover">
+                                            <a href="" >
                                                 सरकारको नीति तथा कार्यक्रममा सूचना माग सरकारको नीति तथा कार्यक्रममा सूचना मागसरकारको नीति तथा कार्यक्रममा सूचना माग सरकारको नीति तथा कार्यक्रममा सूचना माग
                                             </a>
                                         </h3>
@@ -387,7 +400,7 @@
                 
                 <!-- end take tips-->
             </div>
-            <div class="col-md-4 py-3">
+            <div class="col-md-4 py-2">
                
                 <a href="" class=" text-decoration-none">
                     <div class="row ">
@@ -395,7 +408,7 @@
                             <div class="card-body p-0 position-relative">
                                 <div class="posts">
                                     <a href="#" class="text-decoration-none">
-                                        <img src="https://www.nepalpress.com/wp-content/uploads/2023/05/gold.jpg" class="overlya-news-image rounded object-fit-cover" alt="">
+                                        <img src="https://www.nepalpress.com/wp-content/uploads/2023/04/sandeep-lamichhane-pic-new.jpg" class="overlya-news-image rounded img-fluid object-fit-cover"  style="height: 200px; width: 100%;;" alt="">
                                         <h3 class="text-over-image title fs-4">
                                             <a href="" class=" custom-hover">
                                                 सरकारको नीति तथा कार्यक्रममा सूचना माग
@@ -412,14 +425,14 @@
 
                     <div class="row ">
                         <div class="col-4">
-                            <img src="https://techkagaj.com/wp-content/uploads/2024/03/IMepay.webp"
-                                class="img-fluid rounded h-100 w-100 object-fit-cover" alt="">
+                            <img src="https://www.nepalpress.com/wp-content/uploads/2024/05/bagmati-sansadiya-dal-350x350.jpg"
+                                class="img-fluid rounded object-fit-cover" style="height: 80px; width: 100%;">
 
                         </div>
                         <div class="col-8">
                             <h3 class=" text-dark title   py-2">
                                 <a href="" class=" custom-hover">
-                                    सरकारको नीति तथा कार्यक्रममा सूचना माग
+                                    गृहमन्त्रीको प्रष्टीकरण- मैले कसैलाई धम्काएको छैन
                                 </a>
                             </h3>                         
                         </div>
@@ -427,14 +440,14 @@
                 <hr>
                     <div class="row ">
                         <div class="col-4">
-                            <img src="https://techkagaj.com/wp-content/uploads/2024/03/IMepay.webp"
-                                class="img-fluid rounded h-100 w-100 object-fit-cover" alt="">
+                            <img src="https://www.nepalpress.com/wp-content/uploads/2024/05/rabi-lamichhane-1-350x350.jpg"
+                                class="img-fluid rounded object-fit-cover" style="height: 80px; width: 100%;">
 
                         </div>
                         <div class="col-8">
                             <h3 class=" text-dark title   py-2">
                                 <a href="" class=" custom-hover">
-                                    सरकारको नीति तथा कार्यक्रममा सूचना माग
+                                    गृहमन्त्रीको प्रष्टीकरण- मैले कसैलाई धम्काएको छैन
                                 </a>
                             </h3>                         
                         </div>
@@ -559,14 +572,14 @@
 
         <!--news section -->
         <div class="row">
-            <div class="col-md-4 py-3">
+            <div class="col-md-4 ">
                 <a href="" class=" text-decoration-none ">
                     <div class="row ">
                         <div class="card" style="border: none;">
                             <div class="card-body p-0 position-relative">
-                                <div class="posts">
+                                <div class="news-posts">
                                     <a href="#" class="text-decoration-none">
-                                        <img src="https://www.nepalpress.com/wp-content/uploads/2023/05/gold.jpg" class="img-fluid rounded" alt="">
+                                        <img src="https://www.nepalpress.com/wp-content/uploads/2023/07/congress-party-office-e1689667399715.jpg" class="img-fluid rounded" alt="">
                                         <div class="fs-4 text-over-image">
                                             <h3 class=" text-dark title   py-2">
                                                 <a href="" class=" custom-hover">
@@ -585,14 +598,14 @@
 
                 <div class="row my-4">
                     <div class="col-4">
-                        <img src="https://www.nepalpress.com/wp-content/uploads/2023/05/gold.jpg"
-                            class="img-fluid rounded h-100 w-100 object-fit-cover" alt="">
+                        <img src="https://www.nepalpress.com/wp-content/uploads/2024/05/gyanendra-sahi-350x350.png"
+                            class="img-fluid rounded  object-fit-cover" style="height: 100px; width: 100%;" alt="">
 
                     </div>
                     <div class="col-8">
                         <h3 class=" text-dark title   py-2">
                             <a href="" class=" custom-hover">
-                                सरकारको नीति तथा कार्यक्रममा सूचना माग
+                                कांग्रेसले समिति होइन, सरकार माग गरेको होः महेश बर्तौला (भिडिओ)
                             </a>
                         </h3>                            
                     </div>
@@ -600,14 +613,14 @@
                 
                 <div class="row my-4">
                     <div class="col-4">
-                        <img src="https://www.nepalpress.com/wp-content/uploads/2023/05/gold.jpg"
-                            class="img-fluid rounded h-100 w-100 object-fit-cover" alt="">
+                        <img src="https://www.nepalpress.com/wp-content/uploads/2023/12/Yogesh-Bhattarai-350x350.jpg"
+                            class="img-fluid rounded  object-fit-cover" style="height: 100px; width: 100%;" alt="">
 
                     </div>
                     <div class="col-8">
                         <h3 class=" text-dark title   py-2">
                             <a href="" class=" custom-hover">
-                                सरकारको नीति तथा कार्यक्रममा सूचना माग
+                                ज्ञानेन्द्र शाहीको आरोप- सभामुखको कुर्सिमा पार्टीको कार्यकर्ता देख्यौं (भिडिओ)
                             </a>
                         </h3>                            
                     </div>
@@ -615,29 +628,29 @@
 
                 <div class="row my-4">
                     <div class="col-4">
-                        <img src="https://www.nepalpress.com/wp-content/uploads/2023/05/gold.jpg"
-                            class="img-fluid rounded h-100 w-100 object-fit-cover" alt="">
+                        <img src="https://www.nepalpress.com/wp-content/uploads/2024/05/mahesh-bartula-350x350.jpg"
+                            class="img-fluid rounded  object-fit-cover" style="height: 100px; width: 100%;" alt="">
 
                     </div>
                     <div class="col-8">
                         <h3 class=" text-dark title   py-2">
                             <a href="" class=" custom-hover">
-                                सरकारको नीति तथा कार्यक्रममा सूचना माग
+                                ज्ञानेन्द्र शाहीको आरोप- सभामुखको कुर्सिमा पार्टीको कार्यकर्ता देख्यौं (भिडिओ)
                             </a>
-                        </h3>                            
+                        </h3>                           
                     </div>
                 </div>
                 
                 <div class="row my-4">
                     <div class="col-4">
-                        <img src="https://www.nepalpress.com/wp-content/uploads/2023/05/gold.jpg"
-                            class="img-fluid rounded h-100 w-100 object-fit-cover" alt="">
+                        <img src="https://www.nepalpress.com/wp-content/uploads/2024/05/prachanda-4-sapath-350x350.jpg"
+                            class="img-fluid rounded  object-fit-cover" style="height: 100px; width: 100%;" alt="">
 
                     </div>
                     <div class="col-8">
                         <h3 class=" text-dark title   py-2">
                             <a href="" class=" custom-hover">
-                                सरकारको नीति तथा कार्यक्रममा सूचना माग
+                                प्रधानमन्त्री प्रचण्डले १६ महिनामै लिए चार पटक विश्वासको मत, कहिले कति ?
                             </a>
                         </h3>                            
                     </div>
@@ -646,78 +659,79 @@
 
                 <div class="row my-4">
                     <div class="col-4">
-                        <img src="https://www.nepalpress.com/wp-content/uploads/2023/05/gold.jpg"
-                            class="img-fluid rounded h-100 w-100 object-fit-cover" alt="">
+                        <img src="https://www.nepalpress.com/wp-content/uploads/2024/05/Congress-Samsadiya-Dal-1-350x350.jpg"
+                            class="img-fluid rounded  object-fit-cover" style="height: 100px; width: 100%;" alt="">
 
                     </div>
                     <div class="col-8">
                         <h3 class=" text-dark title   py-2">
                             <a href="" class=" custom-hover">
-                                सरकारको नीति तथा कार्यक्रममा सूचना माग
+                                कांग्रेसको निष्कर्ष- सरकार तानाशाही भयो, सभामुख दलको कार्यकर्ताको 
                             </a>
                         </h3>                            
                     </div>
                 </div>
                 
+                
                 <div class="row my-4">
                     <div class="col-4">
-                        <img src="https://www.nepalpress.com/wp-content/uploads/2023/05/gold.jpg"
-                            class="img-fluid rounded h-100 w-100 object-fit-cover" alt="">
+                        <img src="https://www.nepalpress.com/wp-content/uploads/2024/05/mahesh-bartula-350x350.jpg"
+                            class="img-fluid rounded  object-fit-cover" style="height: 100px; width: 100%;" alt="">
 
                     </div>
                     <div class="col-8">
                         <h3 class=" text-dark title   py-2">
                             <a href="" class=" custom-hover">
-                                सरकारको नीति तथा कार्यक्रममा सूचना माग
+                                ज्ञानेन्द्र शाहीको आरोप- सभामुखको कुर्सिमा पार्टीको कार्यकर्ता देख्यौं (भिडिओ)
                             </a>
-                        </h3>                            
-                    </div>
-                </div>
-
-
-                <div class="row my-4">
-                    <div class="col-4">
-                        <img src="https://www.nepalpress.com/wp-content/uploads/2023/05/gold.jpg"
-                            class="img-fluid rounded h-100 w-100 object-fit-cover" alt="">
-
-                    </div>
-                    <div class="col-8">
-                        <h3 class=" text-dark title   py-2">
-                            <a href="" class=" custom-hover">
-                                सरकारको नीति तथा कार्यक्रममा सूचना माग
-                            </a>
-                        </h3>                            
+                        </h3>                           
                     </div>
                 </div>
                 
                 <div class="row my-4">
                     <div class="col-4">
-                        <img src="https://www.nepalpress.com/wp-content/uploads/2023/05/gold.jpg"
-                            class="img-fluid rounded h-100 w-100 object-fit-cover" alt="">
+                        <img src="https://www.nepalpress.com/wp-content/uploads/2024/05/prachanda-4-sapath-350x350.jpg"
+                            class="img-fluid rounded  object-fit-cover" style="height: 100px; width: 100%;" alt="">
 
                     </div>
                     <div class="col-8">
                         <h3 class=" text-dark title   py-2">
                             <a href="" class=" custom-hover">
-                                सरकारको नीति तथा कार्यक्रममा सूचना माग
+                                प्रधानमन्त्री प्रचण्डले १६ महिनामै लिए चार पटक विश्वासको मत, कहिले कति ?
                             </a>
                         </h3>                            
                     </div>
                 </div>
-                
+
+
+                <div class="row my-4">
+                    <div class="col-4">
+                        <img src="https://www.nepalpress.com/wp-content/uploads/2024/05/Congress-Samsadiya-Dal-1-350x350.jpg"
+                            class="img-fluid rounded  object-fit-cover" style="height: 100px; width: 100%;" alt="">
+
+                    </div>
+                    <div class="col-8">
+                        <h3 class=" text-dark title   py-2">
+                            <a href="" class=" custom-hover">
+                                कांग्रेसको निष्कर्ष- सरकार तानाशाही भयो, सभामुख दलको कार्यकर्ताको 
+                            </a>
+                        </h3>                            
+                    </div>
+                </div>
+
                 
 
             </div>
 
 
-            <div class="col-md-4 py-3">
+            <div class="col-md-4 ">
                 <a href="" class=" text-decoration-none ">
                     <div class="row ">
-                        <div class="card" style="border: none;">
+                        <div class="card politics" style="border: none;">
                             <div class="card-body p-0 position-relative">
-                                <div class="posts">
+                                <div class="news-posts">
                                     <a href="#" class="text-decoration-none">
-                                        <img src="https://www.nepalpress.com/wp-content/uploads/2023/05/gold.jpg" class="img-fluid rounded" alt="">
+                                        <img src="https://www.nepalpress.com/wp-content/uploads/2023/02/bhim-rawal-e1677213081778.jpg" class="img-fluid rounded " alt="">
                                         <div class="fs-4 text-over-image ">
                                             <h3 class=" text-dark title   py-2">
                                                 <a href="" class=" custom-hover">
@@ -736,43 +750,44 @@
 
                 <div class="row my-4">
                     <div class="col-4">
-                        <img src="https://www.nepalpress.com/wp-content/uploads/2023/05/gold.jpg"
-                            class="img-fluid rounded h-100 w-100 object-fit-cover" alt="">
+                        <img src="https://www.nepalpress.com/wp-content/uploads/2024/05/gyanendra-sahi-350x350.png"
+                            class="img-fluid rounded  object-fit-cover" style="height: 100px; width: 100%;" alt="">
 
                     </div>
                     <div class="col-8">
                         <h3 class=" text-dark title   py-2">
                             <a href="" class=" custom-hover">
-                                सरकारको नीति तथा कार्यक्रममा सूचना माग
+                                कांग्रेसले समिति होइन, सरकार माग गरेको होः महेश बर्तौला (भिडिओ)
                             </a>
-                        </h3>                           
+                        </h3>                            
                     </div>
                 </div>
+                
                 <div class="row my-4">
                     <div class="col-4">
-                        <img src="https://www.nepalpress.com/wp-content/uploads/2023/05/gold.jpg"
-                            class="img-fluid rounded h-100 w-100 object-fit-cover" alt="">
+                        <img src="https://www.nepalpress.com/wp-content/uploads/2023/12/Yogesh-Bhattarai-350x350.jpg"
+                            class="img-fluid rounded  object-fit-cover" style="height: 100px; width: 100%;" alt="">
 
                     </div>
                     <div class="col-8">
                         <h3 class=" text-dark title   py-2">
                             <a href="" class=" custom-hover">
-                                सरकारको नीति तथा कार्यक्रममा सूचना माग
+                                ज्ञानेन्द्र शाहीको आरोप- सभामुखको कुर्सिमा पार्टीको कार्यकर्ता देख्यौं (भिडिओ)
                             </a>
-                        </h3>                           
+                        </h3>                            
                     </div>
                 </div>
 
                 <div class="row my-4">
                     <div class="col-4">
-                        <img src="https://www.nepalpress.com/wp-content/uploads/2023/05/gold.jpg"
-                            class="img-fluid rounded h-100 w-100 object-fit-cover" alt="">
+                        <img src="https://www.nepalpress.com/wp-content/uploads/2024/05/mahesh-bartula-350x350.jpg"
+                            class="img-fluid rounded  object-fit-cover" style="height: 100px; width: 100%;" alt="">
 
                     </div>
                     <div class="col-8">
                         <h3 class=" text-dark title   py-2">
                             <a href="" class=" custom-hover">
-                                सरकारको नीति तथा कार्यक्रममा सूचना माग
+                                ज्ञानेन्द्र शाहीको आरोप- सभामुखको कुर्सिमा पार्टीको कार्यकर्ता देख्यौं (भिडिओ)
                             </a>
                         </h3>                           
                     </div>
@@ -780,30 +795,46 @@
                 
                 <div class="row my-4">
                     <div class="col-4">
-                        <img src="https://www.nepalpress.com/wp-content/uploads/2023/05/gold.jpg"
-                            class="img-fluid rounded h-100 w-100 object-fit-cover" alt="">
+                        <img src="https://www.nepalpress.com/wp-content/uploads/2024/05/prachanda-4-sapath-350x350.jpg"
+                            class="img-fluid rounded  object-fit-cover" style="height: 100px; width: 100%;" alt="">
 
                     </div>
                     <div class="col-8">
                         <h3 class=" text-dark title   py-2">
                             <a href="" class=" custom-hover">
-                                सरकारको नीति तथा कार्यक्रममा सूचना माग
+                                प्रधानमन्त्री प्रचण्डले १६ महिनामै लिए चार पटक विश्वासको मत, कहिले कति ?
                             </a>
-                        </h3>                           
+                        </h3>                            
                     </div>
                 </div>
 
 
                 <div class="row my-4">
                     <div class="col-4">
-                        <img src="https://www.nepalpress.com/wp-content/uploads/2023/05/gold.jpg"
-                            class="img-fluid rounded h-100 w-100 object-fit-cover" alt="">
+                        <img src="https://www.nepalpress.com/wp-content/uploads/2024/05/Congress-Samsadiya-Dal-1-350x350.jpg"
+                            class="img-fluid rounded  object-fit-cover" style="height: 100px; width: 100%;" alt="">
 
                     </div>
                     <div class="col-8">
                         <h3 class=" text-dark title   py-2">
                             <a href="" class=" custom-hover">
-                                सरकारको नीति तथा कार्यक्रममा सूचना माग
+                                कांग्रेसको निष्कर्ष- सरकार तानाशाही भयो, सभामुख दलको कार्यकर्ताको 
+                            </a>
+                        </h3>                            
+                    </div>
+                </div>
+                
+                
+                <div class="row my-4">
+                    <div class="col-4">
+                        <img src="https://www.nepalpress.com/wp-content/uploads/2024/05/mahesh-bartula-350x350.jpg"
+                            class="img-fluid rounded  object-fit-cover" style="height: 100px; width: 100%;" alt="">
+
+                    </div>
+                    <div class="col-8">
+                        <h3 class=" text-dark title   py-2">
+                            <a href="" class=" custom-hover">
+                                ज्ञानेन्द्र शाहीको आरोप- सभामुखको कुर्सिमा पार्टीको कार्यकर्ता देख्यौं (भिडिओ)
                             </a>
                         </h3>                           
                     </div>
@@ -811,52 +842,34 @@
                 
                 <div class="row my-4">
                     <div class="col-4">
-                        <img src="https://www.nepalpress.com/wp-content/uploads/2023/05/gold.jpg"
-                            class="img-fluid rounded h-100 w-100 object-fit-cover" alt="">
+                        <img src="https://www.nepalpress.com/wp-content/uploads/2024/05/prachanda-4-sapath-350x350.jpg"
+                            class="img-fluid rounded  object-fit-cover" style="height: 100px; width: 100%;" alt="">
 
                     </div>
                     <div class="col-8">
                         <h3 class=" text-dark title   py-2">
                             <a href="" class=" custom-hover">
-                                सरकारको नीति तथा कार्यक्रममा सूचना माग
+                                प्रधानमन्त्री प्रचण्डले १६ महिनामै लिए चार पटक विश्वासको मत, कहिले कति ?
                             </a>
-                        </h3>                           
+                        </h3>                            
                     </div>
                 </div>
 
 
                 <div class="row my-4">
                     <div class="col-4">
-                        <img src="https://www.nepalpress.com/wp-content/uploads/2023/05/gold.jpg"
-                            class="img-fluid rounded h-100 w-100 object-fit-cover" alt="">
+                        <img src="https://www.nepalpress.com/wp-content/uploads/2024/05/Congress-Samsadiya-Dal-1-350x350.jpg"
+                            class="img-fluid rounded  object-fit-cover" style="height: 100px; width: 100%;" alt="">
 
                     </div>
                     <div class="col-8">
                         <h3 class=" text-dark title   py-2">
                             <a href="" class=" custom-hover">
-                                सरकारको नीति तथा कार्यक्रममा सूचना माग
+                                कांग्रेसको निष्कर्ष- सरकार तानाशाही भयो, सभामुख दलको कार्यकर्ताको 
                             </a>
-                        </h3>                           
+                        </h3>                            
                     </div>
                 </div>
-                
-                <div class="row my-4">
-                    <div class="col-4">
-                        <img src="https://www.nepalpress.com/wp-content/uploads/2023/05/gold.jpg"
-                            class="img-fluid rounded h-100 w-100 object-fit-cover" alt="">
-
-                    </div>
-                    <div class="col-8">
-                        <h3 class=" text-dark title   py-2">
-                            <a href="" class=" custom-hover">
-                                सरकारको नीति तथा कार्यक्रममा सूचना माग
-                            </a>
-                        </h3>                           
-                    </div>
-                </div>
-                
-                
-
             </div>
 
             <!--ads section -->
@@ -875,8 +888,13 @@
                     <img src="https://www.nepalpress.com/wp-content/uploads/2024/04/company-register-300.gif" class="img-fluid pb-2" alt="">
                 </a>
 
+                <a href="">
+                    <img  src="https://www.nepalpress.com/wp-content/uploads/2024/05/300x200-1.gif" class="img-fluid">
+                </a>
 
-
+                <a href="">
+                    <img  src="https://www.nepalpress.com/wp-content/uploads/2024/05/250.250px.gif" class="img-fluid">
+                </a>
             </div>
 
 
@@ -2843,9 +2861,13 @@
 
     <!-- end main body part-->
    
+    <button id="subcribe">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 36 36"><path fill="currentColor" d="M32.51 27.83A14.4 14.4 0 0 1 30 24.9a12.63 12.63 0 0 1-1.35-4.81v-4.94A10.81 10.81 0 0 0 19.21 4.4V3.11a1.33 1.33 0 1 0-2.67 0v1.31a10.81 10.81 0 0 0-9.33 10.73v4.94a12.63 12.63 0 0 1-1.35 4.81a14.4 14.4 0 0 1-2.47 2.93a1 1 0 0 0-.34.75v1.36a1 1 0 0 0 1 1h27.8a1 1 0 0 0 1-1v-1.36a1 1 0 0 0-.34-.75M5.13 28.94a16.17 16.17 0 0 0 2.44-3a14.24 14.24 0 0 0 1.65-5.85v-4.94a8.74 8.74 0 1 1 17.47 0v4.94a14.24 14.24 0 0 0 1.65 5.85a16.17 16.17 0 0 0 2.44 3Z" class="clr-i-outline clr-i-outline-path-1"/><path fill="currentColor" d="M18 34.28A2.67 2.67 0 0 0 20.58 32h-5.26A2.67 2.67 0 0 0 18 34.28" class="clr-i-outline clr-i-outline-path-2"/><path fill="none" d="M0 0h36v36H0z"/></svg>
+    </button>
 
-
-
+    <button id="backToTopBtn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="m4 15l8-8l8 8l-2 2l-6-6l-6 6z"/></svg>
+    </button>
     
        <!-- footer section -->
     <section class="container-fluid" id="footer">
@@ -2979,20 +3001,42 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            var navbar = document.getElementById('navbar');
-            var icon = document.getElementById('nav-logo-icon');
-            window.addEventListener('scroll', function() {
-            if (window.scrollY > 100) {
-                navbar.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
-                icon.style.display='block';
-            } else {
-                navbar.style.boxShadow = 'none';
-                icon.style.display='none';
-            }
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                var navbar = document.getElementById('navbar');
+                var icon = document.getElementById('icons-image');
+                var clock_icon = document.getElementById('fa-clock-button');
+                window.addEventListener('scroll', function() {
+                    if (window.scrollY > 100) {
+                        navbar.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
+                        icon.style.display = 'block';
+                        clock_icon.display='none'
+                    } else {
+                        navbar.style.boxShadow = 'none';
+                        icon.style.display = 'none';
+                    }
+                });
             });
-        });
+
+
+            // back to top
+            let backToTopBtn = document.getElementById("backToTopBtn");
+
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    backToTopBtn.style.display = "block";
+                } else {
+                    backToTopBtn.style.display = "none";
+                }
+            }
+
+            backToTopBtn.onclick = function() {
+                document.body.scrollTop = 0; 
+                document.documentElement.scrollTop = 0; 
+            }
+
         </script>
        
           
