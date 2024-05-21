@@ -537,6 +537,13 @@ ul.offcanvas-social-media {
     height: 400px;
     object-fit: cover;
 }
+
+.news-posts1 a img{
+    height: 455px;
+    object-fit: cover;
+}
+
+
 /* sport section */
 .posts1{
     height: 400px;
